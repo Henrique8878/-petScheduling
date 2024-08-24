@@ -1,0 +1,160 @@
+#sectionAbsolute{
+    background-color: wheat;
+    position: absolute;
+    top: 3%;
+    background-color: var(--background-tertiary);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3rem 3rem 3rem 3rem;
+    gap: 1rem;
+    z-index: 2;
+}
+
+#headerHidden{
+    position: initial;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#headerHidden h4{
+    margin: 0;
+    font: var(--Title);
+    color: var(--content-primary);
+}
+
+#headerHidden span:nth-child(2){
+    font: var(--paragraph-medium);
+    color: var(--content-secondary);
+}
+
+
+#sectionAbsolute label{
+    background-color: var(--background-tertiary);
+    width: 100%;
+    border: 1px solid var(--border-primary);
+    border-radius: 5px;
+    padding: .3rem;
+    gap: .2rem;
+    display: flex;
+    align-items: center;
+}
+
+#sectionAbsolute label textarea{
+    width: 100%;
+    background-color: var(--background-tertiary);
+    border: none;
+    color: var(--content-secondary);
+    font: var(--label-large);
+    font-weight: 500;
+    
+}
+
+#sectionAbsolute label textarea:focus{
+    outline: none;
+}
+
+#labelTextArea{
+    padding:.5rem .4rem 1rem .3rem !important;
+    
+}
+#sectionAbsolute input{
+    background-color: var(--background-tertiary);
+    border: none;
+    color: var(--content-secondary);
+    font: var(--label-large);
+    font-weight: 500;
+}
+
+#sectionAbsolute select{
+    background-color: var(--background-tertiary);
+    border: none;
+    color: var(--content-secondary);
+    font: var(--label-large);
+    font-weight: 500;
+}
+
+#sectionAbsolute input:focus{
+    outline: none;
+}
+
+#sectionAbsolute span{
+    font: var(--label-medium);
+    color: var(--content-primary);
+}
+
+#sectionAbsolute div{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+#sectionAbsolute article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    width: 100%;
+}
+
+#sectionAbsolute #sectionChild{
+    display: flex;
+    gap: 1rem;
+}
+
+#sectionAbsolute #sectionChild div{
+    width: 50%;
+    display: flex;
+    flex: wrap;
+}
+
+#sectionAbsolute #sectionChild label{
+    
+    display: flex;
+    width: 90%;
+}
+
+#sectionAbsolute #sectionChild input{
+   width: 90%;
+   border-radius: 5px;
+   
+}
+
+#divBtnAgend{
+    display: flex;
+    align-items: end;
+    margin-top: 1rem;
+}
+
+#btnAgend{
+    background-color: var(--content-brand);
+    border-radius: 10px;
+    font: var(--label-large);
+    color: black;
+    cursor: pointer;
+    width: 123px;
+    height: 48px;
+}
+
+#btnAgend:hover{
+    opacity: 0.8;
+}
+
+@media(max-width:430px) and (min-width:375px){
+    #sectionAbsolute{
+        padding: 1rem;
+        width: 85%;
+        height: 92%;
+    }
+}
+
+@media(max-width:374px){
+    #sectionAbsolute{
+        width: 80%;
+        padding: 1rem;
+    }
+}
+
+

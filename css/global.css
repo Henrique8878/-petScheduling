@@ -1,0 +1,36 @@
+:root{
+
+    /*Content*/
+    --content-primary:#ffffff;
+    --content-secondary:#98959d;
+    --content-tertiary:#666666;
+    --content-brand:#9282fa;
+    /*Background*/
+    --background-primary:#151515;
+    --background-secondary:#1e1e1e;
+    --background-tertiary:#23242c;
+    --background-brand:#9282fa;
+    --background-highlights:#bdb4fa;
+    /*Border*/
+    --border-primary:#3e3c41;
+    --border-secondary:#86818c;
+    --border-brand:#9281fa;
+    --border--divisor:#353339;
+    /*Accent*/
+    --accent-blue:#027df0;
+    --accent-blue-light:#16487a;
+    --accent-yellow:#f0dc02;
+    --accent-yellow-light:#756e1b;
+    --accent-orange-light:#75501b;
+    /**fonts*/
+    --Inter-Tight:"Inter Tight",sans-serif;
+    --Title:bold 1.5rem/2rem var(--Inter-Tight);
+
+    --Inter:"Inter",sans-serif;
+    --paragraph-medium:500 14px/1.5rem var(--Inter);
+    --paragraph-small:500 12px/1rem var(--Inter);
+    --label-large:bold 1rem/1.5rem var(--Inter);
+    --label-medium:bold 14px/1.5rem var(--Inter);
+    --label-small:bold 12px/1.5rem var(--Inter);
+    --link:500 12px/1.5rem var(--Inter);
+}

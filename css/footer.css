@@ -1,0 +1,33 @@
+#btnNewAgend{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 218px;
+    height: 48px;
+    background-color: var(--content-brand);
+    border-radius: 10px;
+    font: var(--label-large);
+    color: black;
+    cursor: pointer;
+}
+
+#btnNewAgend:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media(max-width:430px) and (min-width:321px){
+    #btnNewAgend{
+        left: 50%;
+        transform:translateX(-50%);
+    }
+}
+
+@media(max-width:320px){
+    #btnNewAgend{
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 2rem;
+    }
+}

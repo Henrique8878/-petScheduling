@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento PetShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./assets/Dog-Duotone--Streamline-Phosphor.png" alt="">
+            <span>MUNDO PET</span>
+        </div>
+    </header>
+    <main>
+        <section id="sectionTitle">
+            <div id="divTitle">
+                <h4>Sua agenda</h4>
+                <span>Aqui você pode ver todos os clientes e serviços agendados para hoje.</span>
+            </div>
+            <div id="divInputTitle">
+                <label id="labelInputTitle">
+                    <img src="./assets/Calendar Minimalistic.png" alt="" srcset="">
+                    <input type="date" name="" id="inpChangeDate">
+                </label>
+            </div>
+        </section>
+    </main>
+    <section id="sectionAbsolute">
+        <header id="headerHidden">
+            <h4>Agende um atendimento</h4>
+            <span>Preencha os dados do cliente para realizar o agendamento:</span>
+        </header>
+        <article>
+            <div>
+                <span>Nome do tutor</span>
+                <label for="" >
+                    <img src="./assets/User--Streamline-Solar.png" alt="" srcset="">
+                    <input type="text" name="" id="inpName" placeholder="Henrique Tomaz" maxlength="20">
+                </label>
+            </div>
+            
+
+            <div>
+                <span>Nome do pet</span>
+                <label for="">
+                    <img src="./assets/Pet-Paw--Streamline-Core.png" alt="" srcset="">
+                    <input type="text" name="" id="inpNamePet" placeholder="Pingo" maxlength="15">
+                </label>
+                
+            </div>
+
+            <div>
+                <span>Telefone</span>
+                <label for="">
+                    <img src="./assets/Phone--Streamline-Solar.png" alt="" srcset="">
+                    <input type="text" name="" id="inpTel" placeholder="(  ) 0 0000-0000" maxlength="16">
+                </label>
+            </div>
+            
+            <div>
+                <span>Descrição do serviço</span>
+                <label for="" id="labelTextArea">
+                    <textarea name="" id="inpDescription" placeholder="Banho e Tosa" maxlength="20"></textarea>
+                </label>
+    
+            </div>
+            <section id="sectionChild">
+                <div>
+                    <span>Data</span>
+                    <label for="">
+                        <img src="./assets/Calendar Minimalistic.png" alt="" srcset="">
+                        <input type="date" id="inpDate">
+                    </label>
+                </div>
+                <div>
+                    <span>Hora</span>
+                    <label for="">
+                        <img src="./assets/Clock Circle.png" alt="" srcset="">
+                        <select name="" id="inpHour" placeholder="12:00">
+                            <option value="9" class="optTime">09:00</option>
+                            <option value="10"class="optTime">10:00</option>
+                            <option value="11"class="optTime">11:00</option>
+                            <option value="12"class="optTime">12:00</option>
+                            <option value="13"class="optTime">13:00</option>
+                            <option value="14"class="optTime">14:00</option>
+                            <option value="15"class="optTime">15:00</option>
+                            <option value="16"class="optTime">16:00</option>
+                            <option value="17"class="optTime">17:00</option>
+                            <option value="18"class="optTime">18:00</option>
+                        </select>
+                    </label>
+                </div>
+            </section>
+
+            <div id="divBtnAgend">
+                <button id="btnAgend">AGENDAR</button>
+            </div>
+
+        </article>
+    </section>
+    <footer>
+        <button id="btnNewAgend">
+            <span>NOVO AGENDAMENTO</span>
+        </button>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
